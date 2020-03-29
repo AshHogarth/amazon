@@ -1,0 +1,126 @@
+@import 'colors';
+@import 'utility';
+
+
+.header{
+    background-color: $off-black;   
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .header-content{
+        display: flex;
+        justify-content: space-between;
+
+        .logo-title-wrapper{
+            img{
+                margin-right: 15px;
+            }
+    
+            span{
+                font-size: 32px;
+                font-weight: 700;
+            }
+        }
+        .search-box-wrapper{
+            input[type=text]{
+                border: none;
+                padding-left: 5px;
+                height: 36px;
+                width: 200px;
+            }
+        }
+    }   
+}
+
+.breadcrumb{
+    margin-top: 30px;
+}
+
+.blue{
+    // height: 1px;
+    width: 100%;
+    border-bottom: solid 10px $blue;
+}
+
+.two-thirds{
+    width: 66%;
+}
+
+.go-button{
+    margin-top: 30px;
+    background: #00703C;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Metropolis';
+    font-size: 24px;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0 2px 0 0 #002D18;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.input-wrapper{
+    margin-bottom: 30px;
+    label{
+        font-size: 19px;
+        display: block;
+        margin-bottom: 5px;
+    }
+    input{
+        font-size: 19px;
+        height: 40px;
+        width: 300px;
+        padding-left: 10px;
+        font-family: 'Metropolis';
+        border: solid 2px $off-black;
+    }
+    select{
+        width: 300px;
+        height: 25px;
+        font-family: 'Metropolis';
+        font-size: 12px;
+    }
+}
+
+.link{
+    display: block;
+    color: #3B003D;
+}
+
+.postcode{
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 19px;
+}
+.postcodeValue{
+    margin-top: 0;
+    font-size: 19px;
+}
+
+.playback-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 70px;
+    tr{
+        td{
+            padding: 10px;
+            border-bottom: solid 2px rgb(200,200,200);
+
+            &:last-child{
+                color: #1D70B8;
+                text-align: right;
+
+                a{
+                    color: #1D70B8;
+                    &:visited{
+                        color: #1D70B8;
+                    }
+                }
+            }
+        }
+    }
+}

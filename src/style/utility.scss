@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Metropolis';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+
+.content-wrapper{
+    width: 960px;
+    margin: auto;
+}
+
+h1{
+    font-size: 48px;
+    line-height: 1.04;
+}
+
+p{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+ul{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
